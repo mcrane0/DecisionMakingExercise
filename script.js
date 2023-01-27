@@ -39,3 +39,33 @@ if (randomNum == 2 || randomNum == 4){
     console.log("Equal to 2 OR equal to 4");
 }
 
+
+/*
+2. Use a ternary to display "Greater than or equal to 4" in the terminal/console if the value for 
+    randomNum is equal to or more than 4. Also, using the same ternary have "Less than 4" display 
+    in the terminal/console if the value is less than 4 (NOTE: You will need to look up ternary since 
+    we have not covered it.)
+3. Use a switch statement to display the number spelled out (Example: "One" for 1, "Two" for 2, etc.) 
+    in the terminal/console for each random value that randomNum can have (1, 2, 3, 4, or 5) (NOTE: You 
+    will need to look up switch statements since we have not covered it.)
+*/
+
+// bonus
+console.log( (randomNum >= 4) ? "Greater than or equal to 4" : "Less than 4" );
+
+switch (randomNum) {
+    case (1):
+        console.log("One");
+        break;
+    case (2):
+        console.log("Two");
+        break;
+    case (3):
+        console.log("Three");
+        break;
+    case (4):
+        console.log("Four");
+        break;   
+    default:
+        console.log("Five");
+}
